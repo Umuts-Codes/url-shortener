@@ -123,7 +123,7 @@ This operation is performed using our delete_urls.py file. By adding the desired
 
 
 
-Remove-Panel.png  ![Url Shortener Screenshot](screenshots/Remove-Panel.png)
+![Url Shortener Screenshot](screenshots/Remove-Panel.png)
 
 
 
