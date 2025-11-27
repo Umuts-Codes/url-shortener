@@ -13,6 +13,9 @@ Database Purpose
 This file ensures that all operations performed in the application are persistently stored:
 
 
+<br>
+
+
 1. Stores Shortened Links
 
 The data from the Link model in the backend is saved into database.db:
@@ -25,6 +28,8 @@ clicks → Total number of clicks
 
 Whenever a new URL is added to the system, this information is saved in database.db.
 
+
+<br>
 
 
 2. Stores Click Details
@@ -42,6 +47,8 @@ Which short link was clicked
 This allows the admin panel to display both total clicks and detailed logs.
 
 
+<br>
+
 
 3. Loads All Analytics in the Admin Panel
 
@@ -58,6 +65,8 @@ The list of shortened links would be empty
 So, the functioning of the admin panel entirely depends on this database file.
 
 
+<br>
+
 
 4. delete_urls.py Script Deletes from This File
 
@@ -72,6 +81,7 @@ This effectively removes the link from the admin panel
 This operation is performed directly on the database without requiring backend or frontend intervention.
 
 
+<br>
 
 
 In Short:
