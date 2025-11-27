@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+	<link rel="icon" type="image/png" sizes="36x36" href="static/images/link-icon.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+   
+   <h1>URL Shortener</h1>
+
+    
+    <form id="shorten-form" method="POST" action="{{ url_for('shorten_url') }}">
+        <input type="text" name="original_url" placeholder="Enter your URL" required>
+        <button type="submit">Shorten</button>
+    </form>
+
+    
+    <h2>Click Analytics</h2>
+    <div id="analytics">
+	   <div class="table-wrapper"> 
+        <table id="analytics-table" border="1">
+            <thead>
+                <tr>
+                    <th>Short URL</th>
+                    <th>Original URL</th>
+                    <th>Total Clicks</th>
+					<th>Copy</th>
+                </tr>
+            </thead>
+            <tbody>
+               <!-- To be filled with JS -->
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='js/jquery.main.js') }}" defer></script>
+	
+	
+	
+</body>
+</html>
