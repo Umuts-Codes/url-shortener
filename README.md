@@ -17,7 +17,7 @@ This file ensures that all operations performed in the application are persisten
 <br>
 
 
-1. Stores Shortened Links
+<p>1. Stores Shortened Links</p>
 
 The data from the Link model in the backend is saved into database.db:
 
