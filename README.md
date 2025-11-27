@@ -15,4 +15,59 @@ Additionally, all links are displayed in the analytics table in real time allowi
 
 ![Url Shortener Screenshot](screenshots/2-Main-Url-Shortener.png)
 
+
 <br><br>
+
+
+
+
+
+
+# COPY & REDIRECT LOGIC
+
+
+
+On the Click Analytics page when you generate a short link for a website such as https://www.instagram.com/
+
+the system creates a 6‑character short code (example: ZoCZdZ).
+
+When the user clicks the Copy button the platform produces a short URL like: http://127.0.0.1:5000/ZoCZdZ
+
+
+
+Although this URL may look like it belongs to Instagram or another target website it actually belongs to the URL Shortener platform itself.
+
+
+Here:
+
+http://127.0.0.1:5000/ → Mine the domain of the URL Shortener application
+
+ZoCZdZ → the 6‑character code generated for Instagram’s original long link
+
+
+
+When the user clicks the short link they are automatically redirected to the original destination whether it is Instagram’s homepage or any other subpage.
+
+
+This redirect mechanism works the same for all websites:
+
+
+1- The platform receives a long URL,
+
+2- Generates a unique 6‑character code,
+
+3- Appends this code to its own domain,
+
+4- Redirects the user to the real target URL.
+
+
+This makes long and complex links much shorter, shareable, and easier to track through the analytics table.
+
+
+![Url Shortener Screenshot](screenshots/Url-Shortener-copy.png)
+
+
+
+<br><br>
+
+
