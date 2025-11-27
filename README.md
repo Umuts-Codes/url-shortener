@@ -16,9 +16,9 @@ Additionally, all links are displayed in the analytics table in real time allowi
 ![Url Shortener Screenshot](screenshots/2-Main-Url-Shortener.png)
 
 
+
+
 <br><br>
-
-
 
 
 
@@ -71,3 +71,14 @@ This makes long and complex links much shorter, shareable, and easier to track t
 <br><br>
 
 
+
+
+# SHORT-URL WORK FLOW 
+
+
+After clicking the 6‑character code in the Short-URL section the user is redirected to the main or sub page of Instagram (or any other website) based on the generated 6‑character code.
+
+![Url Shortener Screenshot](screenshots/Short-Url.png)
+
+
+<br><br>
