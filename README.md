@@ -155,3 +155,21 @@ Which makes the system detect and remove the unwanted websites listed.
 
 
 <br><br>
+
+
+
+
+
+
+
+
+# RE-BACK DASHBOARD
+
+
+And as shown by performing the necessary actions in the admin panel we have removed the websites https://www.flashscore.com.tr/, https://www.hepsiburada.com/ and https://www.trendyol.com/ from our system.
+
+
+
+![Url Shortener Screenshot](screenshots/1-After-Remove.png)    
+
+![Url Shortener Screenshot](screenshots/2-After-Remove.png)
