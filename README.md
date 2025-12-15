@@ -177,7 +177,7 @@ This makes long and complex links much shorter, shareable, and easier to track t
 
 
 
-# SHORT-URL WORK FLOW 
+# SHORT URL WORK FLOW 
 
 
 After clicking the 6‑character code in the Short-URL section the user is redirected to the main or sub page of Instagram (or any other website) based on the generated 6‑character code.
