@@ -101,7 +101,7 @@ Every time the project runs, the backend connects to this file to read and updat
 
 
 
-# URL - SHORTENER
+# URL SHORTENER
 
 The purpose of my URL Shortener project is to allow users to easily convert long and complex web links — for example, 15 or 20 characters long with numbers, and even longer — into short, shareable, and copyable links.
 
