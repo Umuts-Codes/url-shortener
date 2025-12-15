@@ -103,7 +103,7 @@ Every time the project runs, the backend connects to this file to read and updat
 
 # URL SHORTENER
 
-The purpose of my URL Shortener project is to allow users to easily convert long and complex web links — for example, 15 or 20 characters long with numbers, and even longer — into short, shareable, and copyable links.
+The purpose of my URL Shortener project is to allow users to easily convert long and complex web links for example, 15 or 20 characters long with numbers, and even longer into short, shareable, and copyable links.
 
 After entering the URL into the “Enter your URL” field and clicking the Shorten button the system generates a 6-character short code and appends it to the original link end.
 
